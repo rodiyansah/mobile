@@ -4,9 +4,9 @@ import 'homepage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  try{
+  try {
     await Firebase.initializeApp();
-  } catch (e){
+  } catch (e) {
     print('Error initializing Firebase: $e');
   }
   runApp(const MyApp());
@@ -28,3 +28,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//rodi
